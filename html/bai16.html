@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 16</title>
+    <style>
+        h1,
+        h3 {
+            margin: 15px 0;
+        }
+
+        table,
+        tr,
+        td {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandotory</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fullName">Full name*:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="" id="fullName" placeholder="FirstName LastName...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailAddress">Email address*:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="" id="emailAddress" placeholder="EmailAddress...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrivalDate">Arrival date*:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="" id="arrivalDate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="numberOfPeople">Number of people</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="numberOfPeople">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="selectLabel">What would you like ro avail?!*</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="" id="selectLabel">
+                            <option value="boarding">Boarding</option>
+                            <option value="Fooding">Fooding</option>
+                            <option value="Sight seeing">Sight seeing</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="disocunt">Discount Coupon code</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="discount">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="term">Term and conditions</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="" id="term-agree">I agree
+                        <input type="radio" name="" id="term-disagree">I disagree
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Complete reservation"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
