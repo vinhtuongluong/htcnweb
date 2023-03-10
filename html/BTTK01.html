@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTTK01</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px auto;
+      }
+
+      .wrapper {
+        width: 960px;
+        background-color: white;
+        border: 1px solid black;
+      }
+
+      header {
+        position: relative;
+        width: 960px;
+        height: 100px;
+        background-color: #294e79;
+      }
+
+      .name1 {
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        left: 85px;
+        top: 8px;
+      }
+
+      .name2 {
+        color: white;
+        position: absolute;
+        left: 85px;
+        top: 60px;
+      }
+
+      .search-form {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      #search {
+        background-color: #051c3b;
+        border: 1px solid #1966c4;
+        margin-right: 15px;
+        height: 25px;
+        text-indent: 5px;
+      }
+
+      #button {
+        background-color: #051c3b;
+        border: 1px solid #1966c4;
+        color: white;
+        height: 25px;
+        padding: 5px;
+      }
+
+      .top-menu {
+        display: flex;
+        width: 550px;
+        position: absolute;
+        bottom: 0px;
+        right: 5px;
+      }
+
+      .item {
+        background-color: #3e73b0;
+        padding: 10px 15px;
+      }
+
+      .item:hover {
+        background-color: #8babd0;
+        font-style: italic;
+      }
+
+      .item a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+      }
+
+      .container {
+        display: flex;
+        width: 100%;
+        padding-bottom: 50px;
+      }
+
+      .left {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .c1 {
+        width: 55%;
+      }
+
+      .c2 {
+        width: 35%;
+      }
+
+      .c3 {
+        width: 30%;
+        background-color: #f7f7f7;
+        margin-top: 40px;
+      }
+
+      .c1-title {
+        width: 95%;
+        font-size: 25px;
+        border-bottom: 2px dashed gray;
+        padding: 30px 0px 10px 0px;
+        margin-left: 15px;
+      }
+
+      .c1-text {
+        padding: 20px 20px 20px 0px;
+        text-align: justify;
+        color: red;
+        font-style: italic;
+        text-shadow: 5px 5px 5px green;
+      }
+
+      table input {
+        background-color: #f7f7f7;
+        border: 1px solid gray;
+        height: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      table textarea {
+        background-color: #f7f7f7;
+      }
+
+      .c1-button {
+        border: 1px solid gray;
+        margin-top: 10px;
+        padding: 10px;
+        line-height: 1px;
+      }
+
+      .c2-title {
+        width: 100%;
+        font-size: 25px;
+        border-bottom: 2px dashed gray;
+        padding: 20px 0px;
+      }
+      .c2-text1 {
+        padding: 10px 0 40px 0;
+      }
+      .c2-text3 {
+        padding-top: 20px;
+      }
+      .c3-title {
+        padding: 20px 0px 10px;
+        width: 90%;
+        font-size: 25px;
+        border-bottom: 2px dashed gray;
+      }
+
+      .c3-img {
+        width: 250px;
+        height: 100px;
+        padding: 3px;
+        margin: 20px 20px;
+        border: 1px solid gray;
+      }
+
+      .c3-text {
+        width: 250px;
+        text-align: justify;
+        margin: 10px 20px;
+      }
+
+      .c3-link {
+        color: #114d72;
+        font-weight: bold;
+        text-decoration: none;
+        float: right;
+        margin-right: 20px;
+      }
+
+      footer {
+        background-color: #1c3451;
+        height: 35px;
+      }
+
+      #footer-line {
+        padding-left: 10px;
+        color: #566d87;
+        line-height: 35px;
+      }
+
+      .highlight {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="/img/Logo.PNG" alt="" class="logo" />
+        <p class="name1">FlowerBox 360</p>
+        <p class="name2">... to get your daily dose of luxury roses!</p>
+        <form action="" class="search-form">
+          <input
+            type="text"
+            name="txtSearch"
+            id="search"
+            placeholder="Search the site..."
+          />
+          <input id="button" type="button" value="GO" />
+        </form>
+        <div class="top-menu">
+          <div class="item"><a href="">Home</a></div>
+          <div class="item"><a href="">Promotion</a></div>
+          <div class="item"><a href="">Gift Baskets</a></div>
+          <div class="item"><a href="">Flower Service</a></div>
+          <div class="item"><a href="">About</a></div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="left">
+          <p class="c1-title">Why Not Contact Us Today!</p>
+          <div class="c1">
+            <p class="c1-text">
+              For FlowerBox 360 shoppers, that means not only can you send your
+              friends and loved ones the highest quality flowers found on
+              online, but that you can do so at a great value.
+            </p>
+            <form action="" class="c1-form">
+              <table>
+                <tr>
+                  <td><label for="name">Name:</label></td>
+                  <td><label for="email">Email:</label></td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="" id="name" /></td>
+                  <td><input type="email" name="" id="mail" /></td>
+                </tr>
+                <tr>
+                  <td><label for="tel">Telephone:</label></td>
+                  <td><label for="subject">Subject:</label></td>
+                </tr>
+                <tr>
+                  <td><input type="tel" name="" id="tel" /></td>
+                  <td><input type="text" name="" id="subject" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><label for="mess">Message:</label></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <textarea name="" id="mess" cols="44" rows="4"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input class="c1-button" type="button" value="Submit" />
+                    <input class="c1-button" type="button" value="Reset" />
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+          <div class="c2">
+            <p class="c2-title">FlowerBox 360 Info!</p>
+            <p class="c2-text1">
+              Operating Hours: <br />
+              Monday-Friday: 9.00am-5.00pm.<br />
+              Saturday: 9.00am-1.00pm.<br />
+              Sunday: Closed (No Deliveries)<br />
+              ORDER ONLINE 24/7
+            </p>
+            <p class="c2-text2">
+              Software Engineering Dept. <br />
+              Information Technology Falcuty<br />
+              First Floor, H Building
+            </p>
+            <p class="c2-text3">
+              12 Nguyen Van Bao St., Ward 4<br />
+              Go Vap District<br />
+              Ho Chi Minh City<br />
+              Tel: 0283 8940 390<br />
+              Fax: 0283.9940 954
+            </p>
+          </div>
+        </div>
+        <div class="c3">
+          <p class="c3-title">Discounts & Specials</p>
+          <img src="/img/Rose.png" alt="" class="c3-img" />
+          <p class="c3-text">
+            FlowerBox 360 offers many great discounts throughout the year, from
+            coupons and coupon codes, to promo codes and other savings. We also
+            offer military flower discounts to our wonderful troops!
+          </p>
+          <a class="c3-link" href="">Read More >></a>
+        </div>
+      </div>
+      <footer>
+        <p id="footer-line">
+          <span class="highlight"
+            >Copyright © 2017 - All Rights Reserved -</span
+          >
+          Software Engineering Department - Industrial University of Ho Chi Minh
+          City
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
