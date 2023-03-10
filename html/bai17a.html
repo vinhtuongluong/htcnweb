@@ -1,237 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bai17a</title>
-    <style>
-      p {
-        margin: 20px;
-      }
 
-      table {
-        padding: 0 20px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bai17a</title>
+  <style>
+    p {
+      margin: 20px;
+    }
 
-      .inputAnswer {
-        margin: 0 0 0 20px;
-      }
+    table {
+      padding: 0 20px;
+    }
 
-      ul li {
-        list-style-type: none;
-      }
+    .inputAnswer {
+      margin: 0 0 0 20px;
+    }
 
-      .wrapper .question {
-        margin: 20px 0;
-      }
+    ul li {
+      list-style-type: none;
+    }
 
-      .wrapper {
-        font-size: 19px;
-        background-color:burlywood;
-      }
+    .wrapper .question {
+      margin: 20px 0;
+    }
 
-      .content {
-        margin: 0 40px;
-      }
+    .wrapper {
+      font-size: 19px;
+      background-color: burlywood;
+    }
 
-      .answerQuestion {
-        margin: 0 0 0 20px;
-      }
+    .content {
+      margin: 0 40px;
+    }
 
-      .submitForm {
-        width: 15%;
-        display: flex;
-        margin: auto;
-      }
-    </style>
-  </head>
+    .answerQuestion {
+      margin: 0 0 0 20px;
+    }
 
-  <body>
-    <div class="wrapper">
-      <div class="intro">
-        <h1 align="center">Survey Form</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-          voluptas impedit inventore dolorem, facilis quam a, ad ea nihil est
-          dicta reprehenderit dolore itaque officia ipsam perferendis minus
-          deleniti obcaecati sint porro ipsum distinctio quos eius. Voluptatem
-          sapiente quaerat, similique debitis placeat accusamus hic nulla
-          deleniti nisi rerum incidunt beatae assumenda eius ipsa esse explicabo
-          quasi. At aperiam minima rem exercitationem quam molestiae aliquam
-          adipisci vel incidunt maxime est possimus commodi molestias, iusto
-          voluptates deleniti odit, cupiditate reprehenderit repellat? Impedit!
-        </p>
-      </div>
-      <div class="content">
-        <form action="">
-          <div class="question">
-            <div class="headerQuestion">
-              1. <label for="fullName">What is your name ?</label>
-            </div>
-            <div class="answerQuestion">
-              <input type="text" name="" id="fullName" />
-            </div>
+    .submitForm {
+      width: 15%;
+      display: flex;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="intro">
+      <h1 align="center">Survey Form</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+        voluptas impedit inventore dolorem, facilis quam a, ad ea nihil est
+        dicta reprehenderit dolore itaque officia ipsam perferendis minus
+        deleniti obcaecati sint porro ipsum distinctio quos eius. Voluptatem
+        sapiente quaerat, similique debitis placeat accusamus hic nulla
+        deleniti nisi rerum incidunt beatae assumenda eius ipsa esse explicabo
+        quasi. At aperiam minima rem exercitationem quam molestiae aliquam
+        adipisci vel incidunt maxime est possimus commodi molestias, iusto
+        voluptates deleniti odit, cupiditate reprehenderit repellat? Impedit!
+      </p>
+    </div>
+    <div class="content">
+      <form action="">
+        <div class="question">
+          <div class="headerQuestion">
+            1. <label for="fullName">What is your name ?</label>
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              2. <label for="birthDay">What is your date of birth ?</label>
-            </div>
-            <div class="answerQuestion">
-              Month:
-              <select name="" id="birthDay">
-                <option value="January">January</option>
-                <option value="Febrary">Febrary</option>
-                <option value="March">March</option>
-                <option value="April">April</option>
-                <option value="May">May</option>
-                <option value="June">June</option>
-                <option value="July">July</option>
-                <option value="August">August</option>
-                <option value="September">September</option>
-                <option value="October">October</option>
-                <option value="November">November</option>
-                <option value="December" selected>December</option>
-              </select>
-              Date:
-              <select name="" id="birthDay">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27" selected>27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-                <option value="31">31</option>
-              </select>
-              Year:
-              <select name="" id="birthDay">
-                <option value="1990">1990</option>
-                <option value="1991">1991</option>
-                <option value="1992">1992</option>
-                <option value="1993">1993</option>
-                <option value="1994">1994</option>
-                <option value="1995">1995</option>
-                <option value="1996">1996</option>
-                <option value="1997">1997</option>
-                <option value="1998">1998</option>
-                <option value="1999">1999</option>
-                <option value="2000">2000</option>
-                <option value="2001">2001</option>
-                <option value="2002">2002</option>
-                <option value="2003" selected>2003</option>
-                <option value="2004">2004</option>
-                <option value="2005">2005</option>
-                <option value="2006">2006</option>
-              </select>
-            </div>
+          <div class="answerQuestion">
+            <input type="text" name="" id="fullName" />
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              3.
-              <label for="mailingAddress"
-                >What is your mailing address (if you would like to hava a hard
-                cop of out catalog sent to you) ?</label
-              >
-            </div>
-            <div class="answerQuestion">
-              <textarea name="" id="mailingAddress" cols="50" rows="4">
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            2. <label for="birthDay">What is your date of birth ?</label>
+          </div>
+          <div class="answerQuestion">
+            Month:
+            <select name="" id="birthDay">
+              <option value="January">January</option>
+              <option value="Febrary">Febrary</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December" selected>December</option>
+            </select>
+            Date:
+            <select name="" id="birthDay">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27" selected>27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            Year:
+            <select name="" id="birthDay">
+              <option value="1990">1990</option>
+              <option value="1991">1991</option>
+              <option value="1992">1992</option>
+              <option value="1993">1993</option>
+              <option value="1994">1994</option>
+              <option value="1995">1995</option>
+              <option value="1996">1996</option>
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003" selected>2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+            </select>
+          </div>
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            3.
+            <label for="mailingAddress">What is your mailing address (if you would like to hava a hard
+              cop of out catalog sent to you) ?</label>
+          </div>
+          <div class="answerQuestion">
+            <textarea name="" id="mailingAddress" cols="50" rows="4">
 Number/P.O. Box/Route:
 Street/Avenue/Road:
 City:
 State/Zip:
                 </textarea>
-            </div>
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              4. <label for="email">What is your email ?</label>
-            </div>
-            <div class="answerQuestion">
-              <input type="email" name="" id="email" />
-            </div>
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            4. <label for="email">What is your email ?</label>
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              5.<label for="fullName"
-                >How you viewed our online product catalog ?</label
-              >
-            </div>
-            <div class="answerQuestion">
-              <input type="radio" name="" id="viewed" />Yes
-              <input type="radio" name="" id="viewed" />No
-            </div>
+          <div class="answerQuestion">
+            <input type="email" name="" id="email" />
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              6.
-              <label for="fullName"
-                >If so, what product(s), besides the one you are ordering, might
-                you be interested in purchasing in the future ? (Check all that
-                apply)
-              </label>
-            </div>
-            <div class="answerQuestion">
-              <input type="checkbox" name="" id="products" />VCR <br />
-              <input type="checkbox" name="" id="products" />Big Screen TV
-              <br />
-              <input type="checkbox" name="" id="products" />Audio Equipment
-              <br />
-              <input type="checkbox" name="" id="products" />Video Equipment
-              <br />
-              <input type="checkbox" name="" id="products" />Camera Equipment
-              <br />
-              <input type="checkbox" name="" id="products" />Other
-              <input type="text" name="" id="" placeholder="Please List:" />
-            </div>
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            5.<label for="fullName">How you viewed our online product catalog ?</label>
           </div>
-          <div class="question">
-            <div class="headerQuestion">
-              7.
-              <label for="fullName"
-                >Do you have any questions, comments or suggests before proceed
-                to Order Form ?
-              </label>
-            </div>
-            <div class="answerQuestion">
-              <textarea
-                name=""
-                id="questions"
-                cols="60"
-                rows="8"
-                placeholder="Your Input:"
-              ></textarea>
-            </div>
+          <div class="answerQuestion">
+            <input type="radio" name="" id="viewed" />Yes
+            <input type="radio" name="" id="viewed" />No
           </div>
-          <div class="submitForm">
-            <input type="submit" value="Send Form" />
-            <input type="submit" value="Clear Form" />
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            6.
+            <label for="fullName">If so, what product(s), besides the one you are ordering, might
+              you be interested in purchasing in the future ? (Check all that
+              apply)
+            </label>
           </div>
-        </form>
-      </div>
+          <div class="answerQuestion">
+            <input type="checkbox" name="" id="products" />VCR <br />
+            <input type="checkbox" name="" id="products" />Big Screen TV
+            <br />
+            <input type="checkbox" name="" id="products" />Audio Equipment
+            <br />
+            <input type="checkbox" name="" id="products" />Video Equipment
+            <br />
+            <input type="checkbox" name="" id="products" />Camera Equipment
+            <br />
+            <input type="checkbox" name="" id="products" />Other
+            <input type="text" name="" id="" placeholder="Please List:" />
+          </div>
+        </div>
+        <div class="question">
+          <div class="headerQuestion">
+            7.
+            <label for="fullName">Do you have any questions, comments or suggests before proceed
+              to Order Form ?
+            </label>
+          </div>
+          <div class="answerQuestion">
+            <textarea name="" id="questions" cols="60" rows="8" placeholder="Your Input:"></textarea>
+          </div>
+        </div>
+        <div class="submitForm">
+          <input type="submit" value="Send Form" />
+          <input type="submit" value="Clear Form" />
+        </div>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
