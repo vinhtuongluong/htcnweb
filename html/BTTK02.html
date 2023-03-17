@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTTK02</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .wrapper {
+        width: 960px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    header {
+        width: 960px;
+        height: 100px;
+        position: relative;
+    }
+
+
+    .name {
+        color: rgb(131, 124, 11);
+        font-size: 40px;
+        text-shadow: -5px -5px 5px white;
+        font-weight: bold;
+        padding: 10px 0px 10px 20px;
+        background-color: rgb(172, 75, 22);
+        height: 50px;
+    }
+
+    .menu {
+        display: flex;
+        position: absolute;
+        width: 550px;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    .item a {
+        color: #D9743D;
+        text-decoration: none;
+    }
+
+    .item:hover {
+        font-style: italic;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .left {
+        margin: 10px;
+        width: 70%;
+        border-right: 1px solid gray;
+    }
+
+    .signup-title {
+        color: rgb(208, 106, 51);
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+    .signup-text {
+        color: rgb(131, 124, 11);
+        padding: 0px 50px;
+        font-size: 20px;
+        font-style: italic;
+        text-align: justify;
+    }
+
+    .form {
+        margin: 20px 50px;
+    }
+
+    input {
+        width: 100%;
+        border: 0px;
+        margin-top: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    button {
+        background-color: rgb(131, 124, 11);
+        color: white;
+        width: 130px;
+        height: 30px;
+        border: 0px;
+        border-radius: 3px;
+        margin-top: 50px;
+    }
+
+    .right {
+        margin: 10px;
+        width: 30%;
+    }
+    .link{
+        background-color: #faebd7;
+        border-radius: 20px 20px 0px 0px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .link-title{
+        color: #6D260B;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px 0px 30px 20px;
+    }
+    .link ul{
+        list-style-type: square;
+        color:#D9743D;
+        padding: 0px 0px 10px 60px;
+    }
+    .link a{
+        color:#D9743D;
+        text-decoration: none;
+    }
+    .info{
+        padding: 20px;
+    }
+    .info-title{
+        color: #6D260B;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 0px 0px 20px 0px;
+    }
+    .img-info{
+        border: 1px solid gray;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .text-info{
+        text-align: justify;
+        letter-spacing: 2px;
+    }
+    footer {
+        position: relative;
+        height: 50px;
+    }
+
+    .img-footer {
+        width: 100%;
+        height: 50px;
+    }
+
+    .text-footer {
+        position: absolute;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        top: 30%;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <p class="name">AUTUMN TRAVEL COMPANY</p>
+
+            <div class="menu">
+                <div class="item"><a href="">Home</a></div>
+                <div class="item"><a href="">About</a></div>
+                <div class="item"><a href="">Product</a></div>
+                <div class="item"><a href="">Services</a></div>
+                <div class="item"><a href="">Order</a></div>
+            </div>
+        </header>
+
+        <div class="banner">
+            <img src="/img/menu.PNG" alt="" class="logo" />
+        </div>
+        <div class="container">
+            <div class="left">
+                <p class="signup-title">Sign up for membership benefits</p>
+                <p class="signup-text">
+                    Our philosophical values are transparency, respect, formality and
+                    reponsibility. Our stimulus is your enthusiam. Our motto is your
+                    satisfaction.
+                </p>
+                <form action="" class="form">
+                    <table>
+                        <input type="text" name="" id="name" placeholder="Username" />
+                        <br />
+                        <input type="email" name="" id="mail" placeholder="E-mail" />
+                        <br />
+                        <input type="password" name="" id="password" placeholder="Password" />
+                        <br />
+                        <input type="password" name="" id="retype" placeholder="Retype Password" />
+                        <br>
+                        <button>SIGN ME UP</button>
+                    </table>
+                </form>
+            </div>
+            <div class="right">
+                <div class="link">
+                    <p class="link-title">Links</p>
+                    <ul>
+                        <li><a href="">Make your Own Tour</a></li>
+                        <li><a href="">Maldives Tours</a></li>
+                        <li><a href="">Nature & Adventure</a></li>
+                        <li><a href="">Readymade Tours</a></li>
+                        <li><a href="">Europe Tours</a></li>
+                        <li><a href="">Rusia Tours</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <p class="info-title">More info</p>
+                    <p class="text-info"><img src="/img/leaf.png" alt="" class="img-info" align = "left">
+                        Our purpose is the client who gives to us the opportunity to serve and to make known the reality
+                        around the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-footer">© 2017 Software Engineering Department | Test Date: 16 Sept 2017</p>
+            <img src="/img/leaf-footer.png" alt="" class="img-footer">
+        </footer>
+    </div>
+
+</body>
+
+</html>
